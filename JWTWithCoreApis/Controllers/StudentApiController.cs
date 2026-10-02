@@ -16,13 +16,13 @@ namespace JWTWithCoreApis.Controllers
         {
             this.studentService = studentService;
         }
-        [HttpGet]
-        [Route("api/student")]
-        public List<TblstudentDetail> GetAll()
-        {
-            //string uname = User.Identity.Name;
-            return studentService.GetStudents();
-        }
+        // [HttpGet]
+        // [Route("api/student")]
+        // public List<TblstudentDetail> GetAll()
+        // {
+        //     //string uname = User.Identity.Name;
+        //     return studentService.GetStudents();
+        // }
         [HttpGet]
         [Route("api/student/{id}")]
         public TblstudentDetail GetById(int id)
