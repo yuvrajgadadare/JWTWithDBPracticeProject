@@ -1,0 +1,3 @@
+﻿ Scaffold-DbContext "Server=115.124.106.98;Database=coreapidb;User Id=apiuser;Password=CIIT#202626;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models  -force
+
+   Scaffold-DbContext "Server=DESKTOP-VRMFV23\SQLEXPRESS;Database=MVCCoreDb;;Trusted_Connection=True;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Table tblemployees,products,tblstudent_details -force
