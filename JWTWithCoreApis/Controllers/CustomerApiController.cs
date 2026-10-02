@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace JWTWithCoreApis.Controllers
 {
     //[Route("api/[controller]")]
-  //   [Authorize]
+     [Authorize]
     [ApiController]
     public class CustomerApiController : ControllerBase
     {
